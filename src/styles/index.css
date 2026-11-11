@@ -1,0 +1,9 @@
+/*
+ * 远程组件样式入口：
+ * - 复用 libs-vben 的 Tailwind 入口（层顺序 + 主题 + 图标插件）
+ * - 扫描 comps-vben 自身源码，生成组件用到的工具类（随包发布，不依赖宿主扫描）
+ * Element Plus 的样式由宿主统一提供。
+ */
+@import '@melt-js/libs-vben/tailwind';
+
+@source '..';

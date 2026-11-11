@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "comps-vben",
+    "app_group_name": "comps-vben",
+    "git_repo_url": "",
+    "online_version": "2026.11.10",
+    "build_version": "2026.11.10",
+    "platform": "unpkg",
+    "create_at": "2026-11-11T14:42:17.831Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-vben",
+    "sub_app_version": "comps-vben@2026.11.10",
+    "version_tag": "2026.11.10",
+    "src_map": {
+      "webDirPath": "https://melt-js.github.io/comps-vben/hel_dist",
+      "htmlIndexSrc": "https://melt-js.github.io/comps-vben/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css",
+        "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css"
+      ],
+      "chunkJsSrcList": [
+        "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js",
+        "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js"
+      ],
+      "staticCssSrcList": [
+        "https://unpkg.com/element-plus@2.14.7/dist/index.css"
+      ],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js",
+        "https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js",
+        "https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js",
+        "https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js",
+        "https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticLink",
+          "append": false,
+          "attrs": {
+            "href": "https://unpkg.com/element-plus@2.14.7/dist/index.css",
+            "rel": "stylesheet"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "https://melt-js.github.io/comps-vben/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\r\n<html lang=\"zh-CN\" class=\"hel-standalone\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-vben</title>\r\n    <!--\r\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；\r\n      独立访问本页时由 CDN 提供运行时，data-helappend=\"0\" 让宿主解析本页时跳过这些脚\r\n      本，使用宿主自己的那一份，避免双实例。\r\n    -->\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\r\n    ></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js\"\r\n    ></script>\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js\"\r\n    ></script>\r\n    <link\r\n      data-helappend=\"0\"\r\n      rel=\"stylesheet\"\r\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\r\n    />\r\n    <script type=\"module\" crossorigin src=\"https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+    "create_at": "2026-11-11T14:42:17.831Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}

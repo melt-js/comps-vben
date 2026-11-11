@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN" class="hel-standalone">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comps-vben</title>
+    <!--
+      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；
+      独立访问本页时由 CDN 提供运行时，data-helappend="0" 让宿主解析本页时跳过这些脚
+      本，使用宿主自己的那一份，避免双实例。
+    -->
+    <script data-helappend="0" src="https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js"></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js"
+    ></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js"
+    ></script>
+    <script data-helappend="0" src="https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js"></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js"
+    ></script>
+    <link
+      data-helappend="0"
+      rel="stylesheet"
+      href="https://unpkg.com/element-plus@2.14.7/dist/index.css"
+    />
+    <script type="module" crossorigin src="https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js"></script>
+    <link rel="stylesheet" crossorigin href="https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
