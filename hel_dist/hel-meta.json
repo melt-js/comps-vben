@@ -3,29 +3,34 @@
     "name": "comps-vben",
     "app_group_name": "comps-vben",
     "git_repo_url": "",
-    "online_version": "2026.11.10",
-    "build_version": "2026.11.10",
+    "online_version": "2026.11.16-2",
+    "build_version": "2026.11.16-2",
     "platform": "unpkg",
-    "create_at": "2026-11-11T14:42:17.831Z"
+    "create_at": "2026-11-17T07:56:19.488Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
     "extract_mode": "build",
     "sub_app_name": "comps-vben",
-    "sub_app_version": "comps-vben@2026.11.10",
-    "version_tag": "2026.11.10",
+    "sub_app_version": "comps-vben@2026.11.16-2",
+    "version_tag": "2026.11.16-2",
     "src_map": {
-      "webDirPath": "https://melt-js.github.io/comps-vben/hel_dist",
-      "htmlIndexSrc": "https://melt-js.github.io/comps-vben/hel_dist/index.html",
+      "webDirPath": "/comps-vben/hel_dist",
+      "htmlIndexSrc": "/comps-vben/hel_dist/index.html",
       "extractMode": "all",
       "iframeSrc": "",
       "chunkCssSrcList": [
-        "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css",
-        "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css"
+        "/comps-vben/hel_dist/assets/style-BKnWiv0u.css",
+        "/comps-vben/hel_dist/standalone-preview.css"
       ],
       "chunkJsSrcList": [
-        "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js",
-        "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js"
+        "/comps-vben/hel_dist/assets/index-D8YDiqJr.js",
+        "/comps-vben/hel_dist/assets/components-BGR-VNsf.js",
+        "/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js",
+        "/comps-vben/hel_dist/assets/shared-runtime-BKcuvELF.js",
+        "/comps-vben/hel_dist/assets/vendor-nGGYe-Jf.js",
+        "/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js",
+        "/comps-vben/hel_dist/standalone-runtime.js"
       ],
       "staticCssSrcList": [
         "https://unpkg.com/element-plus@2.14.7/dist/index.css"
@@ -37,8 +42,12 @@
         "https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js",
         "https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js"
       ],
-      "relativeCssSrcList": [],
-      "relativeJsSrcList": [],
+      "relativeCssSrcList": [
+        "./standalone-preview.css"
+      ],
+      "relativeJsSrcList": [
+        "./standalone-runtime.js"
+      ],
       "headAssetList": [
         {
           "tag": "staticScript",
@@ -84,10 +93,27 @@
           }
         },
         {
+          "tag": "relativeLink",
+          "append": false,
+          "attrs": {
+            "href": "./standalone-preview.css",
+            "data-vben-standalone": "",
+            "rel": "stylesheet"
+          }
+        },
+        {
+          "tag": "relativeScript",
+          "append": false,
+          "attrs": {
+            "src": "./standalone-runtime.js",
+            "data-vben-standalone": ""
+          }
+        },
+        {
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js",
+            "src": "/comps-vben/hel_dist/assets/index-D8YDiqJr.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -96,7 +122,52 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css",
+            "href": "/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vben/hel_dist/assets/shared-runtime-BKcuvELF.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vben/hel_dist/assets/vendor-nGGYe-Jf.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vben/hel_dist/assets/components-BGR-VNsf.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vben/hel_dist/assets/style-BKnWiv0u.css",
             "rel": "stylesheet",
             "crossorigin": ""
           }
@@ -104,13 +175,17 @@
       ],
       "bodyAssetList": [],
       "otherSrcList": [
-        "https://melt-js.github.io/comps-vben/hel_dist/index.html"
+        "/comps-vben/hel_dist/assets/components-BGR-VNsf.js.gz",
+        "/comps-vben/hel_dist/assets/shared-runtime-BKcuvELF.js.gz",
+        "/comps-vben/hel_dist/assets/style-BKnWiv0u.css.gz",
+        "/comps-vben/hel_dist/assets/vendor-nGGYe-Jf.js.gz",
+        "/comps-vben/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\r\n<html lang=\"zh-CN\" class=\"hel-standalone\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-vben</title>\r\n    <!--\r\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；\r\n      独立访问本页时由 CDN 提供运行时，data-helappend=\"0\" 让宿主解析本页时跳过这些脚\r\n      本，使用宿主自己的那一份，避免双实例。\r\n    -->\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\r\n    ></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js\"\r\n    ></script>\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js\"\r\n    ></script>\r\n    <link\r\n      data-helappend=\"0\"\r\n      rel=\"stylesheet\"\r\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\r\n    />\r\n    <script type=\"module\" crossorigin src=\"https://melt-js.github.io/comps-vben/hel_dist/assets/index-Mw4LORi9.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"https://melt-js.github.io/comps-vben/hel_dist/assets/style-Bg3Mndfq.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
-    "create_at": "2026-11-11T14:42:17.831Z",
+    "html_content": "<!doctype html>\r\n<html lang=\"zh-CN\" class=\"hel-standalone\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-vben</title>\r\n    <!--\r\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；\r\n      独立访问本页时由 CDN 提供运行时，data-helappend=\"0\" 让宿主解析本页时跳过这些脚\r\n      本，使用宿主自己的那一份，避免双实例。\r\n    -->\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\r\n    ></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js\"\r\n    ></script>\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js\"\r\n    ></script>\r\n    <link\r\n      data-helappend=\"0\"\r\n      rel=\"stylesheet\"\r\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\r\n    />\r\n    <link data-helappend=\"0\" data-vben-standalone rel=\"stylesheet\" href=\"./standalone-preview.css\">\n    <script data-helappend=\"0\" data-vben-standalone src=\"./standalone-runtime.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vben/hel_dist/assets/index-D8YDiqJr.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/shared-runtime-BKcuvELF.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/vendor-nGGYe-Jf.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/components-BGR-VNsf.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vben/hel_dist/assets/style-BKnWiv0u.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+    "create_at": "2026-11-17T07:56:19.488Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
