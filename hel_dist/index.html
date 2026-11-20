@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN" class="hel-standalone">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comps-vben</title>
+    <!--
+      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；
+      独立访问本页时由 CDN 提供运行时，data-helappend="0" 让宿主解析本页时跳过这些脚
+      本，使用宿主自己的那一份，避免双实例。
+    -->
+    <script data-helappend="0" src="https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js"></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js"
+    ></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js"
+    ></script>
+    <script data-helappend="0" src="https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js"></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js"
+    ></script>
+    <link
+      data-helappend="0"
+      rel="stylesheet"
+      href="https://unpkg.com/element-plus@2.14.7/dist/index.css"
+    />
+    <link data-helappend="0" data-vben-standalone rel="stylesheet" href="./standalone-preview.css">
+    <script data-helappend="0" data-vben-standalone src="./standalone-runtime.js"></script>
+    <script type="module" crossorigin src="/comps-vben/hel_dist/assets/index-ly9gdchq.js"></script>
+    <link rel="modulepreload" crossorigin href="/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js">
+    <link rel="modulepreload" crossorigin href="/comps-vben/hel_dist/assets/shared-runtime-BKcuvELF.js">
+    <link rel="modulepreload" crossorigin href="/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js">
+    <link rel="modulepreload" crossorigin href="/comps-vben/hel_dist/assets/vendor-CCzvI-fX.js">
+    <link rel="modulepreload" crossorigin href="/comps-vben/hel_dist/assets/components-sfnBE7aH.js">
+    <link rel="stylesheet" crossorigin href="/comps-vben/hel_dist/assets/style-ay1GGgSm.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
