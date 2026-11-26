@@ -3,33 +3,33 @@
     "name": "comps-vben",
     "app_group_name": "comps-vben",
     "git_repo_url": "",
-    "online_version": "2026.11.22",
-    "build_version": "2026.11.22",
+    "online_version": "2026.11.24",
+    "build_version": "2026.11.24",
     "platform": "unpkg",
-    "create_at": "2026-11-22T20:44:27.515Z"
+    "create_at": "2026-11-26T05:57:45.590Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
     "extract_mode": "build",
     "sub_app_name": "comps-vben",
-    "sub_app_version": "comps-vben@2026.11.22",
-    "version_tag": "2026.11.22",
+    "sub_app_version": "comps-vben@2026.11.24",
+    "version_tag": "2026.11.24",
     "src_map": {
       "webDirPath": "/comps-vben/hel_dist",
       "htmlIndexSrc": "/comps-vben/hel_dist/index.html",
       "extractMode": "all",
       "iframeSrc": "",
       "chunkCssSrcList": [
-        "/comps-vben/hel_dist/assets/style-ay1GGgSm.css",
+        "/comps-vben/hel_dist/assets/style-Dj9_s-xH.css",
         "/comps-vben/hel_dist/standalone-preview.css"
       ],
       "chunkJsSrcList": [
-        "/comps-vben/hel_dist/assets/index-qcA3pFzz.js",
+        "/comps-vben/hel_dist/assets/index-afO7MzLp.js",
         "/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js",
-        "/comps-vben/hel_dist/assets/components-DMjsRN71.js",
+        "/comps-vben/hel_dist/assets/components-CilpHrBW.js",
         "/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js",
-        "/comps-vben/hel_dist/assets/shared-runtime-DL0V59Yp.js",
-        "/comps-vben/hel_dist/assets/vendor-iBdk7fvY.js",
+        "/comps-vben/hel_dist/assets/shared-runtime-D0va8guD.js",
+        "/comps-vben/hel_dist/assets/vendor-Bx9AQ0G1.js",
         "/comps-vben/hel_dist/standalone-runtime.js"
       ],
       "staticCssSrcList": [
@@ -113,7 +113,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vben/hel_dist/assets/index-qcA3pFzz.js",
+            "src": "/comps-vben/hel_dist/assets/index-afO7MzLp.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -131,7 +131,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vben/hel_dist/assets/shared-runtime-DL0V59Yp.js",
+            "href": "/comps-vben/hel_dist/assets/shared-runtime-D0va8guD.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -149,7 +149,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vben/hel_dist/assets/vendor-iBdk7fvY.js",
+            "href": "/comps-vben/hel_dist/assets/vendor-Bx9AQ0G1.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -158,7 +158,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vben/hel_dist/assets/components-DMjsRN71.js",
+            "href": "/comps-vben/hel_dist/assets/components-CilpHrBW.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -167,7 +167,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vben/hel_dist/assets/style-ay1GGgSm.css",
+            "href": "/comps-vben/hel_dist/assets/style-Dj9_s-xH.css",
             "rel": "stylesheet",
             "crossorigin": ""
           }
@@ -175,17 +175,13 @@
       ],
       "bodyAssetList": [],
       "otherSrcList": [
-        "/comps-vben/hel_dist/assets/components-DMjsRN71.js.gz",
-        "/comps-vben/hel_dist/assets/shared-runtime-DL0V59Yp.js.gz",
-        "/comps-vben/hel_dist/assets/style-ay1GGgSm.css.gz",
-        "/comps-vben/hel_dist/assets/vendor-iBdk7fvY.js.gz",
         "/comps-vben/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-vben</title>\n    <!--\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；\n      独立访问本页时由 CDN 提供运行时，data-helappend=\"0\" 让宿主解析本页时跳过这些脚\n      本，使用宿主自己的那一份，避免双实例。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js\"\n    ></script>\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js\"\n    ></script>\n    <link\n      data-helappend=\"0\"\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\n    />\n    <link data-helappend=\"0\" data-vben-standalone rel=\"stylesheet\" href=\"./standalone-preview.css\">\n    <script data-helappend=\"0\" data-vben-standalone src=\"./standalone-runtime.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vben/hel_dist/assets/index-qcA3pFzz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/shared-runtime-DL0V59Yp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/vendor-iBdk7fvY.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/components-DMjsRN71.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vben/hel_dist/assets/style-ay1GGgSm.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-22T20:44:27.515Z",
+    "html_content": "<!doctype html>\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-vben</title>\n    <!--\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*；\n      独立访问本页时由 CDN 提供运行时，data-helappend=\"0\" 让宿主解析本页时跳过这些脚\n      本，使用宿主自己的那一份，避免双实例。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.41/dist/vue.global.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-router@5.2.0/dist/vue-router.global.prod.js\"\n    ></script>\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@4.0.3/dist/pinia.iife.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-i18n@11.4.10/dist/vue-i18n.global.prod.js\"\n    ></script>\n    <link\n      data-helappend=\"0\"\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\n    />\n    <link data-helappend=\"0\" data-vben-standalone rel=\"stylesheet\" href=\"./standalone-preview.css\">\n    <script data-helappend=\"0\" data-vben-standalone src=\"./standalone-runtime.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vben/hel_dist/assets/index-afO7MzLp.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/rolldown-runtime-Dwys_PaA.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/shared-runtime-D0va8guD.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/__vite-browser-external-Dcrhqm_9.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/vendor-Bx9AQ0G1.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vben/hel_dist/assets/components-CilpHrBW.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vben/hel_dist/assets/style-Dj9_s-xH.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-26T05:57:45.590Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
